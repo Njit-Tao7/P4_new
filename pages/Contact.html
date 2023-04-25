@@ -7,16 +7,67 @@
 </head>
 <body>
 
-<h1>Spotbeauty</h1>
+<div class="menu-bar">
+    <ul>
+        <li class="active"><a href="../../../P4_new/index.html">Home</a></li>
+        <li>Products
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="../../../P4_new/pages/lips.html"> Lips</a></li>
+                    <li><a href="../../../P4_new/pages/body.html"> Body </a></li>
+                    <li><a href="../../../P4_new/pages/face.html"> Face </a></li>
+                    <li><a href="../../../P4_new/pages/eyes.html"> Eyes</a></li>
+                </ul>
+            </div>
 
-<nav>
-    <a href="../index.html">Home</a>
-    <a href="pages/Products.html">Products</a>
-    <a href="pages/wholesale.html">Wholesale</a>
-    <a href="pages/Reviews.html">Reviews</a>
-    <a href="pages/Contact.html">Contact</a>
-    <div class="animation start-home"></div>
-</nav>
+        </li>
+        <li> Wholesale <div class="sub-menu-1">
+            <ul>
+                <li><a href="../../../P4_new/pages/jars.html"> Jars</a></li>
+                <li><a href="../../../P4_new/pages/private_label.html"> Private Label</a></li>
+
+            </ul>
+        </div></li>
+        <li> <a href="../../../P4_new/pages/reviews.html">Reviews</a></li>
+        <li><a href="../../../P4_new/pages/contact.html">Contact</a></li>
+    </ul>
+
+</div>
+
+
+<div>
+    <div>
+        <h1> Contact Us</h1>
+    </div>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input id="submitbtn" type="submit" value="Submit">
+        </form>
+    </div>
+
+</div>
+
+
+<footer>
+    <p>&copy; Tumininu Ogunnaike, 2023</p>
+</footer>
+
 
 </body>
 </html>
