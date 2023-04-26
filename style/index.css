@@ -23,6 +23,7 @@ p{
     background: var(--light-brown);
     text-align: center;
     height:5%;
+    width:100%;
     z-index:6 ;
 
 }
@@ -33,7 +34,7 @@ p{
 
 }
 .menu-bar ul li{
-    width:120px;
+    width:100px;
     margin:2%;
     padding: 2%;
 
@@ -120,12 +121,13 @@ input[type=submit]:hover {
     background: var(--dark-brown);
 }
 aside{
-    width: 20%;
-
+    width: 30%;
 
     float: right;
 
     margin-top: 10%;
+    padding-left: 4%;
+
 
 }
 
@@ -148,11 +150,6 @@ img{
     width:100%;
     height:35vw;
     object-fit:cover;
-
-}
-button {
-    color:red;
-    border-color:red;
 
 }
 nav {
@@ -252,10 +249,11 @@ span {
 .container-sm{
     width:200%;
 }
+asi
 .card-group{
     height: 5rem;
 
-    background: red;
+
 }
 .card-deck {
     padding: 5%;
